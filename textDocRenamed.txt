@@ -1,0 +1,22 @@
+for i, v in pairs(workspace:Getchildren()) do
+	print("V")
+end
+
+tabby = {}
+function clearType(arg)
+	if arg==5 then
+		print("ARGUMENTHATIONS!")
+	elseif arg==2 then
+		print("STOP PRINTING")
+	else
+		return nil
+	end
+end
+
+local var = clearType(1104)
+
+if var ~= nil then
+	while wait() do
+		table.insert(tabby,"val")
+	end
+end
